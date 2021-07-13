@@ -1,0 +1,328 @@
+<header id="header" class="container-fluid">
+    <div class="desktop-menu">
+        <div class="row middle">
+            <div class="logo col">
+                <a href="{{ site.baseurl }}">
+                  <img src="{{ "/img/epicenter_logo.png" | prepend: site.baseurl | replace: '//', '/' }}" alt="Epicenter Logo"-->
+                </a>
+            </div>
+            <nav class="col">
+                <ul class="navmenu">
+                    <li><a href="http://buyepiccash.com/" target="_blank">Buy</a></li>
+                    <li><a href="{{ "/earn/" | prepend: site.baseurl | replace: '//', '/' }}">Earn</a></li>
+                    <li class="more"><a href="#">Trade</a>
+                        <ul class="dropdown">
+                            <li><a href="{{ "#" | prepend: site.baseurl | replace: '//', '/' }}">EDEX</a></li>
+                            <li><a href="{{ "/trade/p2p-otc" | prepend: site.baseurl | replace: '//', '/' }}">P2P OTC</a></li>
+                            <li><a href="{{ "/trade/vitex/" | prepend: site.baseurl | replace: '//', '/' }}">Vitex</a></li>
+                            <li><a href="{{ "/trade/uniswap/" | prepend: site.baseurl | replace: '//', '/' }}">Uniswap</a></li>
+                        </ul>
+                    </li>
+                    <li class="more"><a href="#">Learn</a>
+                        <ul class="dropdown">
+                            <li><a href="{{ "/learn/documentation/" | prepend: site.baseurl | replace: '//', '/' }}">Documentation</a></li>
+                            <li><a href="{{ "/learn/inspiration/" | prepend: site.baseurl | replace: '//', '/' }}">Inspiration</a></li>
+                            <li><a href="{{ "/learn/labs/" | prepend: site.baseurl | replace: '//', '/' }}">Labs</a></li>
+                            <li><a href="{{ "/learn/organizations/" | prepend: site.baseurl | replace: '//', '/' }}">Organizations</a></li>
+                            <li><a href="{{ "/learn/papers/" | prepend: site.baseurl | replace: '//', '/' }}">Papers</a></li>
+                            <li><a href="{{ "/learn/patrons/" | prepend: site.baseurl | replace: '//', '/' }}">Patrons</a></li>
+                            <li><a href="{{ "/learn/principles/" | prepend: site.baseurl | replace: '//', '/' }}">Principles</a></li>
+                            <li><a href="{{ "/learn/techniques/" | prepend: site.baseurl | replace: '//', '/' }}">Techniques</a></li>
+                            <li><a href="{{ "/learn/technologies/" | prepend: site.baseurl | replace: '//', '/' }}">Technologies</a></li>
+                        </ul>
+                    </li>
+                    <li class="more"><a href="#">Community</a>
+                        <ul class="dropdown">
+                            <li><a href="{{ "/community/arabic/" | prepend: site.baseurl | replace: '//', '/' }}">Arabic</a></li>
+                            <li><a href="{{ "/community/chinese/" | prepend: site.baseurl | replace: '//', '/' }}">Chinese</a></li>
+                            <li><a href="{{ "/community/english/" | prepend: site.baseurl | replace: '//', '/' }}">English</a></li>
+                            <li><a href="{{ "/community/filipino/" | prepend: site.baseurl | replace: '//', '/' }}">Filipino</a></li>
+                            <li><a href="{{ "/community/french/" | prepend: site.baseurl | replace: '//', '/' }}">French</a></li>
+                            <li><a href="{{ "/community/german/" | prepend: site.baseurl | replace: '//', '/' }}">German</a></li>
+                            <li><a href="{{ "/community/indonesian/" | prepend: site.baseurl | replace: '//', '/' }}">Indonesian</a></li>
+                            <li><a href="{{ "/community/italian/" | prepend: site.baseurl | replace: '//', '/' }}">Italian</a></li>
+                            <li><a href="{{ "/community/korean/" | prepend: site.baseurl | replace: '//', '/' }}">Korean</a></li>
+                            <li><a href="{{ "/community/polish/" | prepend: site.baseurl | replace: '//', '/' }}">Polish</a></li>
+                            <li><a href="{{ "/community/portuguese/" | prepend: site.baseurl | replace: '//', '/' }}">Portuguese</a></li>
+                            <li><a href="{{ "/community/romanian/" | prepend: site.baseurl | replace: '//', '/' }}">Romanian</a></li>
+                            <li><a href="{{ "/community/russian/" | prepend: site.baseurl | replace: '//', '/' }}">Russian</a></li>
+                            <li><a href="{{ "/community/spanish/" | prepend: site.baseurl | replace: '//', '/' }}">Spanish</a></li>
+                            <li><a href="{{ "/community/turkish/" | prepend: site.baseurl | replace: '//', '/' }}">Turkish</a></li>
+                            <li><a href="{{ "/community/vietnamese/" | prepend: site.baseurl | replace: '//', '/' }}">Vietnamese</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="col mirror"></div>
+            <div class="side-nav">
+                <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
+                    <div id="nav-list">
+                        <div class="tabs">
+                            <div class="tab">
+                                <input type="checkbox" id="chck1">
+                                <label class="tab-label hascontent" for="chck1">Apps</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/apps/edaq/" | prepend: site.baseurl | replace: '//', '/' }}">EDAQ</a></li>
+                                        <li><a href="{{ "#" | prepend: site.baseurl | replace: '//', '/' }}">EDEX</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck7">
+                                <label class="tab-label hascontent" for="chck7">Assets</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/assets/epic/" | prepend: site.baseurl | replace: '//', '/' }}">EPIC</a></li>
+                                        <li><a href="{{ "/assets/ecr/" | prepend: site.baseurl | replace: '//', '/' }}">ECR</a></li>
+                                        <li><a href="{{ "/assets/eusd/" | prepend: site.baseurl | replace: '//', '/' }}">EUSD</a></li>
+                                        <li><a href="{{ "/assets/empl/" | prepend: site.baseurl | replace: '//', '/' }}">EMPL</a></li>
+                                        <li><a href="{{ "/assets/ecap/" | prepend: site.baseurl | replace: '//', '/' }}">ECAP</a></li>
+                                        <li><a href="{{ "/assets/ecvc/" | prepend: site.baseurl | replace: '//', '/' }}">ECVC</a></li>
+                                        <li><a href="{{ "/assets/earn/" | prepend: site.baseurl | replace: '//', '/' }}">EARN</a></li>
+                                        <li><a href="{{ "/assets/eiou/" | prepend: site.baseurl | replace: '//', '/' }}">EIOU</a></li>
+                                        <li><a href="{{ "/assets/eon/" | prepend: site.baseurl | replace: '//', '/' }}">EON</a></li>
+                                        <li><a href="{{ "/assets/eck/" | prepend: site.baseurl | replace: '//', '/' }}">ECK</a></li>
+                                        <li><a href="{{ "/assets/e0/" | prepend: site.baseurl | replace: '//', '/' }}">E0</a></li>
+                                        <li><a href="{{ "/assets/edx/" | prepend: site.baseurl | replace: '//', '/' }}">EDX</a></li>
+                                        <li><a href="{{ "/assets/edxm/" | prepend: site.baseurl | replace: '//', '/' }}">EDXM</a></li>
+                                        <li><a href="{{ "/assets/nodes/" | prepend: site.baseurl | replace: '//', '/' }}">NODES</a></li>
+                                        <li><a href="{{ "/assets/eone/" | prepend: site.baseurl | replace: '//', '/' }}">EONE</a></li>
+                                        <li><a href="{{ "/assets/echo/" | prepend: site.baseurl | replace: '//', '/' }}">ECHO</a></li>
+                                        <li><a href="{{ "/assets/edaq/" | prepend: site.baseurl | replace: '//', '/' }}">EDAQ</a></li>
+                                        <li><a href="{{ "/assets/ereo/" | prepend: site.baseurl | replace: '//', '/' }}">EREP</a></li>            
+                                        <li><a href="{{ "/assets/eau/" | prepend: site.baseurl | replace: '//', '/' }}">EAU</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck8">
+                                <label class="tab-label hascontent" for="chck8">Connections</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/connections/ada/" | prepend: site.baseurl | replace: '//', '/' }}">ADA</a></li>
+                                        <li><a href="{{ "/connections/ae/" | prepend: site.baseurl | replace: '//', '/' }}">AE</a></li>
+                                        <li><a href="{{ "/connections/algo/" | prepend: site.baseurl | replace: '//', '/' }}">ALGO</a></li>
+                                        <li><a href="{{ "/connections/arrr/" | prepend: site.baseurl | replace: '//', '/' }}">ARRR</a></li>
+                                        <li><a href="{{ "/connections/atom/" | prepend: site.baseurl | replace: '//', '/' }}">ATOM</a></li>
+                                        <li><a href="{{ "/connections/avax/" | prepend: site.baseurl | replace: '//', '/' }}">AVAX</a></li>
+                                        <li><a href="{{ "/connections/bch/" | prepend: site.baseurl | replace: '//', '/' }}">BCH</a></li>
+                                        <li><a href="{{ "/connections/bnb/" | prepend: site.baseurl | replace: '//', '/' }}">BNB</a></li>
+                                        <li><a href="{{ "/connections/bsv/" | prepend: site.baseurl | replace: '//', '/' }}">BSV</a></li>
+                                        <li><a href="{{ "/connections/btc/" | prepend: site.baseurl | replace: '//', '/' }}">BTC</a></li>
+                                        <li><a href="{{ "/connections/ckb/" | prepend: site.baseurl | replace: '//', '/' }}">CKB</a></li>
+                                        <li><a href="{{ "/connections/dash/" | prepend: site.baseurl | replace: '//', '/' }}">DASH</a></li>
+                                        <li><a href="{{ "/connections/dgb/" | prepend: site.baseurl | replace: '//', '/' }}">DGB</a></li>
+                                        <li><a href="{{ "/connections/doge/" | prepend: site.baseurl | replace: '//', '/' }}">DOGE</a></li>
+                                        <li><a href="{{ "/connections/dot/" | prepend: site.baseurl | replace: '//', '/' }}">DOT</a></li>
+                                        <li><a href="{{ "/connections/egld/" | prepend: site.baseurl | replace: '//', '/' }}">EGLD</a></li>
+                                        <li><a href="{{ "/connections/eos/" | prepend: site.baseurl | replace: '//', '/' }}">EOS</a></li>
+                                        <li><a href="{{ "/connections/etc/" | prepend: site.baseurl | replace: '//', '/' }}">ETC</a></li>
+                                        <li><a href="{{ "/connections/eth/" | prepend: site.baseurl | replace: '//', '/' }}">ETH</a></li>
+                                        <li><a href="{{ "/connections/frm/" | prepend: site.baseurl | replace: '//', '/' }}">FTM</a></li>
+                                        <li><a href="{{ "/connections/ht/" | prepend: site.baseurl | replace: '//', '/' }}">HT</a></li>
+                                        <li><a href="{{ "/connections/icx/" | prepend: site.baseurl | replace: '//', '/' }}">ICX</a></li>
+                                        <li><a href="{{ "/connections/klay/" | prepend: site.baseurl | replace: '//', '/' }}">KLAY</a></li>
+                                        <li><a href="{{ "/connections/ltc/" | prepend: site.baseurl | replace: '//', '/' }}">LTC</a></li>
+                                        <li><a href="{{ "/connections/nano/" | prepend: site.baseurl | replace: '//', '/' }}">NANO</a></li>
+                                        <li><a href="{{ "/connections/near/" | prepend: site.baseurl | replace: '//', '/' }}">NEAR</a></li>
+                                        <li><a href="{{ "/connections/neo/" | prepend: site.baseurl | replace: '//', '/' }}">NEO</a></li>
+                                        <li><a href="{{ "/connections/one/" | prepend: site.baseurl | replace: '//', '/' }}">ONE</a></li>
+                                        <li><a href="{{ "/connections/qtum/" | prepend: site.baseurl | replace: '//', '/' }}">QTUM</a></li>
+                                        <li><a href="{{ "/connections/sol/" | prepend: site.baseurl | replace: '//', '/' }}">SOL</a></li>
+                                        <li><a href="{{ "/connections/theta/" | prepend: site.baseurl | replace: '//', '/' }}">THETA</a></li>
+                                        <li><a href="{{ "/connections/tomo/" | prepend: site.baseurl | replace: '//', '/' }}">TOMO</a></li>
+                                        <li><a href="{{ "/connections/trx/" | prepend: site.baseurl | replace: '//', '/' }}">TRX</a></li>
+                                        <li><a href="{{ "/connections/vet/" | prepend: site.baseurl | replace: '//', '/' }}">VET</a></li>
+                                        <li><a href="{{ "/connections/vite/" | prepend: site.baseurl | replace: '//', '/' }}">VITE</a></li>
+                                        <li><a href="{{ "/connections/wan/" | prepend: site.baseurl | replace: '//', '/' }}">WAN</a></li>
+                                        <li><a href="{{ "/connections/xmr/" | prepend: site.baseurl | replace: '//', '/' }}">XMR</a></li>
+                                        <li><a href="{{ "/connections/xtz/" | prepend: site.baseurl | replace: '//', '/' }}">XTZ</a></li>
+                                        <li><a href="{{ "/connections/zec/" | prepend: site.baseurl | replace: '//', '/' }}">ZEC</a></li>
+                                        <li><a href="{{ "/connections/zen/" | prepend: site.baseurl | replace: '//', '/' }}">ZEN</a></li>
+                                        <li><a href="{{ "/connections/zil/" | prepend: site.baseurl | replace: '//', '/' }}">ZIL</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <label class="tab-label"><a href="{{ "/news/" | prepend: site.baseurl | replace: '//', '/' }}">News</a></label>
+                            </div>
+                            <div class="tab">
+                                <label class="tab-label"><a href="{{ "/buzz/" | prepend: site.baseurl | replace: '//', '/' }}">Buzz</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="logo col">
+                <a href="{{ site.baseurl }}">
+                  <img src="{{ "/img/epicenter_logo.png" | prepend: site.baseurl | replace: '//', '/' }}" alt="Epicenter Logo"-->
+                </a>
+        </div>
+        <div class="side-nav">
+                <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav2"{% endif %}>
+                    <div id="nav-list">
+                        <div class="tabs">
+                           <div class="tab">
+                                <label class="tab-label"><a href="http://buyepiccash.com/" target="_blank">Buy</a></label>
+                            </div>
+                            <div class="tab">
+                                <label class="tab-label"><a href="{{ "/earn/" | prepend: site.baseurl | replace: '//', '/' }}">Earn</a></label>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck2">
+                                <label class="tab-label hascontent" for="chck2">Trade</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "#" | prepend: site.baseurl | replace: '//', '/' }}">EDEX</a></li>
+                                        <li><a href="{{ "/trade/p2p-otc" | prepend: site.baseurl | replace: '//', '/' }}">P2P OTC</a></li>
+                                        <li><a href="{{ "/trade/vitex/" | prepend: site.baseurl | replace: '//', '/' }}">Vitex</a></li>
+                                        <li><a href="{{ "/trade/uniswap/" | prepend: site.baseurl | replace: '//', '/' }}">Uniswap</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck3">
+                                <label class="tab-label hascontent" for="chck3">Learn</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/learn/documentation/" | prepend: site.baseurl | replace: '//', '/' }}">Documentation</a></li>
+                                        <li><a href="{{ "/learn/inspiration/" | prepend: site.baseurl | replace: '//', '/' }}">Inspiration</a></li>
+                                        <li><a href="{{ "/learn/labs/" | prepend: site.baseurl | replace: '//', '/' }}">Labs</a></li>
+                                        <li><a href="{{ "/learn/organizations/" | prepend: site.baseurl | replace: '//', '/' }}">Organizations</a></li>
+                                        <li><a href="{{ "/learn/papers/" | prepend: site.baseurl | replace: '//', '/' }}">Papers</a></li>
+                                        <li><a href="{{ "/learn/patrons/" | prepend: site.baseurl | replace: '//', '/' }}">Patrons</a></li>
+                                        <li><a href="{{ "/learn/principles/" | prepend: site.baseurl | replace: '//', '/' }}">Principles</a></li>
+                                        <li><a href="{{ "/learn/techniques/" | prepend: site.baseurl | replace: '//', '/' }}">Techniques</a></li>
+                                        <li><a href="{{ "/learn/technologies/" | prepend: site.baseurl | replace: '//', '/' }}">Technologies</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck4">
+                                <label class="tab-label hascontent" for="chck4">Community</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/community/arabic/" | prepend: site.baseurl | replace: '//', '/' }}">Arabic</a></li>
+                                        <li><a href="{{ "/community/chinese/" | prepend: site.baseurl | replace: '//', '/' }}">Chinese</a></li>
+                                        <li><a href="{{ "/community/english/" | prepend: site.baseurl | replace: '//', '/' }}">English</a></li>
+                                        <li><a href="{{ "/community/filipino/" | prepend: site.baseurl | replace: '//', '/' }}">Filipino</a></li>
+                                        <li><a href="{{ "/community/french/" | prepend: site.baseurl | replace: '//', '/' }}">French</a></li>
+                                        <li><a href="{{ "/community/german/" | prepend: site.baseurl | replace: '//', '/' }}">German</a></li>
+                                        <li><a href="{{ "/community/indonesian/" | prepend: site.baseurl | replace: '//', '/' }}">Indonesian</a></li>
+                                        <li><a href="{{ "/community/italian/" | prepend: site.baseurl | replace: '//', '/' }}">Italian</a></li>
+                                        <li><a href="{{ "/community/korean/" | prepend: site.baseurl | replace: '//', '/' }}">Korean</a></li>
+                                        <li><a href="{{ "/community/polish/" | prepend: site.baseurl | replace: '//', '/' }}">Polish</a></li>
+                                        <li><a href="{{ "/community/portuguese/" | prepend: site.baseurl | replace: '//', '/' }}">Portuguese</a></li>
+                                        <li><a href="{{ "/community/romanian/" | prepend: site.baseurl | replace: '//', '/' }}">Romanian</a></li>
+                                        <li><a href="{{ "/community/russian/" | prepend: site.baseurl | replace: '//', '/' }}">Russian</a></li>
+                                        <li><a href="{{ "/community/spanish/" | prepend: site.baseurl | replace: '//', '/' }}">Spanish</a></li>
+                                        <li><a href="{{ "/community/turkish/" | prepend: site.baseurl | replace: '//', '/' }}">Turkish</a></li>
+                                        <li><a href="{{ "/community/vietnamese/" | prepend: site.baseurl | replace: '//', '/' }}">Vietnamese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck5">
+                                <label class="tab-label hascontent" for="chck5">Apps</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/apps/edaq/" | prepend: site.baseurl | replace: '//', '/' }}">EDAQ</a></li>
+                                        <li><a href="{{ "#" | prepend: site.baseurl | replace: '//', '/' }}">EDEX</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck9">
+                                <label class="tab-label hascontent" for="chck9">Assets</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/assets/epic/" | prepend: site.baseurl | replace: '//', '/' }}">EPIC</a></li>
+                                        <li><a href="{{ "/assets/ecr/" | prepend: site.baseurl | replace: '//', '/' }}">ECR</a></li>
+                                        <li><a href="{{ "/assets/eusd/" | prepend: site.baseurl | replace: '//', '/' }}">EUSD</a></li>
+                                        <li><a href="{{ "/assets/empl/" | prepend: site.baseurl | replace: '//', '/' }}">EMPL</a></li>
+                                        <li><a href="{{ "/assets/ecap/" | prepend: site.baseurl | replace: '//', '/' }}">ECAP</a></li>
+                                        <li><a href="{{ "/assets/ecvc/" | prepend: site.baseurl | replace: '//', '/' }}">ECVC</a></li>
+                                        <li><a href="{{ "/assets/earn/" | prepend: site.baseurl | replace: '//', '/' }}">EARN</a></li>
+                                        <li><a href="{{ "/assets/eiou/" | prepend: site.baseurl | replace: '//', '/' }}">EIOU</a></li>
+                                        <li><a href="{{ "/assets/eon/" | prepend: site.baseurl | replace: '//', '/' }}">EON</a></li>
+                                        <li><a href="{{ "/assets/eck/" | prepend: site.baseurl | replace: '//', '/' }}">ECK</a></li>
+                                        <li><a href="{{ "/assets/e0/" | prepend: site.baseurl | replace: '//', '/' }}">E0</a></li>
+                                        <li><a href="{{ "/assets/edx/" | prepend: site.baseurl | replace: '//', '/' }}">EDX</a></li>
+                                        <li><a href="{{ "/assets/edxm/" | prepend: site.baseurl | replace: '//', '/' }}">EDXM</a></li>
+                                        <li><a href="{{ "/assets/nodes/" | prepend: site.baseurl | replace: '//', '/' }}">NODES</a></li>
+                                        <li><a href="{{ "/assets/eone/" | prepend: site.baseurl | replace: '//', '/' }}">EONE</a></li>
+                                        <li><a href="{{ "/assets/echo/" | prepend: site.baseurl | replace: '//', '/' }}">ECHO</a></li>
+                                        <li><a href="{{ "/assets/edaq/" | prepend: site.baseurl | replace: '//', '/' }}">EDAQ</a></li>
+                                        <li><a href="{{ "/assets/ereo/" | prepend: site.baseurl | replace: '//', '/' }}">EREP</a></li>            
+                                        <li><a href="{{ "/assets/eau/" | prepend: site.baseurl | replace: '//', '/' }}">EAU</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <input type="checkbox" id="chck10">
+                                <label class="tab-label hascontent" for="chck10">Connections</label>
+                                <div class="tab-content">
+                                    <ul>
+                                        <li><a href="{{ "/connections/ada/" | prepend: site.baseurl | replace: '//', '/' }}">ADA</a></li>
+                                        <li><a href="{{ "/connections/ae/" | prepend: site.baseurl | replace: '//', '/' }}">AE</a></li>
+                                        <li><a href="{{ "/connections/algo/" | prepend: site.baseurl | replace: '//', '/' }}">ALGO</a></li>
+                                        <li><a href="{{ "/connections/arrr/" | prepend: site.baseurl | replace: '//', '/' }}">ARRR</a></li>
+                                        <li><a href="{{ "/connections/atom/" | prepend: site.baseurl | replace: '//', '/' }}">ATOM</a></li>
+                                        <li><a href="{{ "/connections/avax/" | prepend: site.baseurl | replace: '//', '/' }}">AVAX</a></li>
+                                        <li><a href="{{ "/connections/bch/" | prepend: site.baseurl | replace: '//', '/' }}">BCH</a></li>
+                                        <li><a href="{{ "/connections/bnb/" | prepend: site.baseurl | replace: '//', '/' }}">BNB</a></li>
+                                        <li><a href="{{ "/connections/bsv/" | prepend: site.baseurl | replace: '//', '/' }}">BSV</a></li>
+                                        <li><a href="{{ "/connections/btc/" | prepend: site.baseurl | replace: '//', '/' }}">BTC</a></li>
+                                        <li><a href="{{ "/connections/ckb/" | prepend: site.baseurl | replace: '//', '/' }}">CKB</a></li>
+                                        <li><a href="{{ "/connections/dash/" | prepend: site.baseurl | replace: '//', '/' }}">DASH</a></li>
+                                        <li><a href="{{ "/connections/dgb/" | prepend: site.baseurl | replace: '//', '/' }}">DGB</a></li>
+                                        <li><a href="{{ "/connections/doge/" | prepend: site.baseurl | replace: '//', '/' }}">DOGE</a></li>
+                                        <li><a href="{{ "/connections/dot/" | prepend: site.baseurl | replace: '//', '/' }}">DOT</a></li>
+                                        <li><a href="{{ "/connections/egld/" | prepend: site.baseurl | replace: '//', '/' }}">EGLD</a></li>
+                                        <li><a href="{{ "/connections/eos/" | prepend: site.baseurl | replace: '//', '/' }}">EOS</a></li>
+                                        <li><a href="{{ "/connections/etc/" | prepend: site.baseurl | replace: '//', '/' }}">ETC</a></li>
+                                        <li><a href="{{ "/connections/eth/" | prepend: site.baseurl | replace: '//', '/' }}">ETH</a></li>
+                                        <li><a href="{{ "/connections/frm/" | prepend: site.baseurl | replace: '//', '/' }}">FTM</a></li>
+                                        <li><a href="{{ "/connections/ht/" | prepend: site.baseurl | replace: '//', '/' }}">HT</a></li>
+                                        <li><a href="{{ "/connections/icx/" | prepend: site.baseurl | replace: '//', '/' }}">ICX</a></li>
+                                        <li><a href="{{ "/connections/klay/" | prepend: site.baseurl | replace: '//', '/' }}">KLAY</a></li>
+                                        <li><a href="{{ "/connections/ltc/" | prepend: site.baseurl | replace: '//', '/' }}">LTC</a></li>
+                                        <li><a href="{{ "/connections/nano/" | prepend: site.baseurl | replace: '//', '/' }}">NANO</a></li>
+                                        <li><a href="{{ "/connections/near/" | prepend: site.baseurl | replace: '//', '/' }}">NEAR</a></li>
+                                        <li><a href="{{ "/connections/neo/" | prepend: site.baseurl | replace: '//', '/' }}">NEO</a></li>
+                                        <li><a href="{{ "/connections/one/" | prepend: site.baseurl | replace: '//', '/' }}">ONE</a></li>
+                                        <li><a href="{{ "/connections/qtum/" | prepend: site.baseurl | replace: '//', '/' }}">QTUM</a></li>
+                                        <li><a href="{{ "/connections/sol/" | prepend: site.baseurl | replace: '//', '/' }}">SOL</a></li>
+                                        <li><a href="{{ "/connections/theta/" | prepend: site.baseurl | replace: '//', '/' }}">THETA</a></li>
+                                        <li><a href="{{ "/connections/tomo/" | prepend: site.baseurl | replace: '//', '/' }}">TOMO</a></li>
+                                        <li><a href="{{ "/connections/trx/" | prepend: site.baseurl | replace: '//', '/' }}">TRX</a></li>
+                                        <li><a href="{{ "/connections/vet/" | prepend: site.baseurl | replace: '//', '/' }}">VET</a></li>
+                                        <li><a href="{{ "/connections/vite/" | prepend: site.baseurl | replace: '//', '/' }}">VITE</a></li>
+                                        <li><a href="{{ "/connections/wan/" | prepend: site.baseurl | replace: '//', '/' }}">WAN</a></li>
+                                        <li><a href="{{ "/connections/xmr/" | prepend: site.baseurl | replace: '//', '/' }}">XMR</a></li>
+                                        <li><a href="{{ "/connections/xtz/" | prepend: site.baseurl | replace: '//', '/' }}">XTZ</a></li>
+                                        <li><a href="{{ "/connections/zec/" | prepend: site.baseurl | replace: '//', '/' }}">ZEC</a></li>
+                                        <li><a href="{{ "/connections/zen/" | prepend: site.baseurl | replace: '//', '/' }}">ZEN</a></li>
+                                        <li><a href="{{ "/connections/zil/" | prepend: site.baseurl | replace: '//', '/' }}">ZIL</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab">
+                                <label class="tab-label"><a href="{{ "/news/" | prepend: site.baseurl | replace: '//', '/' }}">News</a></label>
+                            </div>
+                            <div class="tab">
+                                <label class="tab-label"><a href="{{ "/buzz/" | prepend: site.baseurl | replace: '//', '/' }}">Buzz</a></label>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+    </div>
+    <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
+	  	<div id="menu"></div>
+	  </a>
+</header>

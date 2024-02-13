@@ -1,1 +1,1 @@
-# Epicenter-Website
+# Epic.Tech Website
